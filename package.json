@@ -1,9 +1,11 @@
 {
-  "devDependencies": {
-    "jest": "^27.4.7"
-
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jest": "^27.4.7",
+    "mocha": "^9.1.4"
   },
-   "scripts":{
-    "test":"jest"
-  }
+  "scripts": {
+    "test": "mocha"
+  },
+  "type": "module"
 }
